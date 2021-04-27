@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#AllContent{
+    background-color: rgb(216, 215, 194);
+    padding: 10px 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+#container img{
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 50%;
+    
+}
+#container div{
+    /* border: 1px solid black; */
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container h1{
+    font-weight: 900;
+}
+#container h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6)
+}
+
+
+
+
+
+#containerMain{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+#containerMain #sectionLeft{
+    padding: 10px 0 ;
+    /* border: 1px solid black; */
+    width: 35%;
+}
+#containerMain #sectionLeft h2{
+    font-size: 20px;
+}
+#containerMain #sectionLeft p{
+    padding: 5px 0;
+    color:rgba(0,0,0,0.6);
+    font-size: 13px;
+    font-weight: 600;
+}
+#containerMain #sectionLeft .sectionInfo{
+   
+    height: 250px;
+}
+
+#containerMain #sectionLeft .sectionInfo h2{
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+#containerMain #sectionLeft .sectionComp{
+    height: 250px;
+}
+#containerMain #sectionLeft .sectionComp h2{
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+#containerMain #sectionLeft .sectionComp h3{
+    color:rgba(0,0,0,0.6);
+}
+#containerMain #sectionLeft .sectionCont{
+    /* border: 1px solid black; */
+    height:300px;
+  
+}
+#containerMain #sectionLeft .sectionCont h2{
+    padding-bottom: 15px;
+    font-weight: 600;
+  
+}
+#containerMain #sectionLeft .sectionCont h3{
+    padding-bottom: 15px;
+    font-weight: 600;
+  
+}
+#containerMain #sectionLeft .sectionCont div{
+    height: 50px;
+    width: 250px;
+    /* border: 1px solid black; */
+}
+#containerMain #sectionLeft .sectionCont a{
+    text-decoration: none;
+    color:rgba(0,0,0,0.6);
+    font-weight: 600;
+  
+}
+
+
+
+
+
+
+
+#containerMain #sectionRight > div{
+    display: flex;
+    
+}
+#containerMain #sectionRight > div > div:first-child{
+    width: 100px;
+    height: inherit;
+    margin-right:20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+#containerMain #sectionRight > div > div:first-child .line{
+    width:5px;
+    margin-top: 19px;
+    height: 70%;
+    background-color: black;
+    
+    
+}
+
+#containerMain #sectionRight > div > div:first-child .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+#containerMain #sectionRight > div > div:last-child{
+    padding-top: 8px;
+    
+}
+#sectionRight h2{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#sectionRight > div{
+    padding-bottom: 50px;
+}
+
+#sectionRight hr{
+    background-color: black;
+    margin-bottom: 20px;
+}
+#sectionRight .h3{
+    color: rgba(0,0,0,0.6);
+}
+
+#sectionRight p{
+    color:rgba(0,0,0,0.6);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+#sectionRight .skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#sectionRight .skills > div{
+     /* border: 1px solid black;  */
+    width: 125px;
+    padding-bottom: 20px;
+    
+}
+
+#sectionRight .skills > div div{
+    border: 1px solid black;
+    border-radius:2px;
+    width: 120px;
+    height: 8px;
+    
+}
+#sectionRight .skills > div:nth-child(1) div div{
+    background-color: black;
+    height: inherit;
+    width: 50%;
+    
+}
+#sectionRight .skills > div:nth-child(2) div div{
+    background-color: black;
+    height: inherit;
+    width: 70%;
+    
+}
+#sectionRight .skills > div:nth-child(3) div div{
+    background-color: black;
+    height: inherit;
+    width: 70%;
+    
+}
+#sectionRight .skills > div:nth-child(4) div div{
+    background-color: black;
+    height: inherit;
+    width: 30%;
+    
+}
+#sectionRight .skills > div:nth-child(5) div div{
+    background-color: black;
+    height: inherit;
+    width: 50%;
+    
+}
+#sectionRight .skills > div:nth-child(6) div div{
+    background-color: black;
+    height: inherit;
+    width: 30%;
+    
+}
+#sectionRight .skills > div:nth-child(7) div div{
+    background-color: black;
+    height: inherit;
+    width: 50%;
+    
+}
+
+
