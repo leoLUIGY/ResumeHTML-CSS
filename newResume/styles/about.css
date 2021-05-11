@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-image: url("../src/img/índice.png");
+    background-color: black;
+    width: 100%;
+    color:rgb(145, 143, 143);
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header img{
+    width: 250px;
+    border-radius: 50%;
+}
+#header h1{
+    font-size:40px;
+}
+#header h2{
+    font-size:20px;
+}
+#headerMain{
+    background-image: url("../img/map.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.664);
+    color:rgb(180, 175, 175);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionInfo{
+    /* border: 2px solid black; */
+   background-color:rgba(0, 0, 0, 0.664);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin-top: 30px;
+
+}
+.sectionInfo h2{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.sectionInfo h3{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.sectionInfo p{ 
+    font-size: 25px;
+}
+.sectionCont{
+    /* border: 2px solid black; */
+    background-color:rgba(0, 0, 0, 0.664);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height:200px;
+}
+.sectionCont h2{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.sectionCont h3{
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.sectionCont a{
+    padding-bottom: 5px;
+    font-size: 25px;
+}

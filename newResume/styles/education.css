@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainEdu{
+    background-Image:url("../img/FOTO_NOVA_FATEC.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionRightDiv{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 600px;
+    padding:20px 30px;
+}
+.sectionRightDiv h2{
+    font-size:35px;
+    padding-bottom:20px;
+}
+.sectionRightDiv h3{
+    font-size:30px;
+    padding-bottom:20px;
+}
+.sectionRightDiv p{
+    font-size:27px;
+    line-height: 50px;
+}
