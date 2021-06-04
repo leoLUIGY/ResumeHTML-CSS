@@ -1,7 +1,15 @@
 
 const info = document.querySelector("#aboutMe")
+const nave = document.querySelector(".menuSelect")
 
 
+nave.addEventListener("click", () => {
+    if(document.querySelector(".Navegation").style.display == 'flex'){
+        document.querySelector(".Navegation").style.display = 'none';
+    } else{
+        document.querySelector(".Navegation").style.display = 'flex';
+    }
+})
 info.addEventListener("click", ()=> {
     return(
 

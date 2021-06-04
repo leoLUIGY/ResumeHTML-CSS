@@ -77,6 +77,89 @@
     font-size: 25px;
 }
 .sectionCont a{
+    display:inline-block;
     padding-bottom: 5px;
     font-size: 25px;
+}
+
+@media(min-width:500px) and (max-width:800px){
+       #headerMain{
+        height:60vh;
+    }
+    #header h1{
+        font-size:30px;
+    }
+    #header h2{
+        font-size:15px;
+    }
+    #header img{
+        width: 200px;
+    }
+    .sectionInfo, .sectionCont{
+        /* border: 2px solid black; */
+        width: 500px;
+        height: 200px;    
+    }
+    .sectionInfo h2{
+        font-size: 25px;
+    }
+    .sectionInfo h3{
+        font-size: 20px;
+    }
+    .sectionCont h2{
+
+        font-size: 25px;
+    }
+    .sectionCont h3{
+        font-size: 20px;
+    }
+    .sectionCont a{
+        display:inline-block;
+        padding-bottom: 5px;
+        font-size: 20px;
+    }
+}
+@media(max-width:500px){
+    #header{
+        height:300px;
+    }
+    #header h1{
+        font-size:19px;
+    }
+    #header h2{
+        font-size:13px;
+    }
+    #header img{
+        width: 150px;
+    }
+    .sectionInfo, .sectionCont{
+        /* border: 2px solid black; */
+        width:370px;
+        height: 170px;    
+    }
+    .sectionInfo h2{
+        font-size: 20px;
+    }
+    .sectionInfo h3{
+        font-size: 20px;
+    }
+    .sectionCont h2{
+
+        font-size: 20px;
+    }
+    .sectionCont h3{
+        font-size: 20px;
+    }
+    .sectionInfo p{ 
+        font-size: 20px;
+    }
+    .sectionCont a{
+        display:inline-block;
+        padding-bottom: 5px;
+        text-align: center;
+        font-size: 20px;
+    }
+    /* #headerMain{
+        height:100vh;
+    } */
 }

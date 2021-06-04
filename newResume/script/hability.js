@@ -2,7 +2,10 @@
 const hab = document.querySelector("#hability")
 
 
-hab.addEventListener("click", ()=> {
+console.log("the margin is ");
+
+hab.addEventListener("click", function() {
+    
     return(
 
         document.querySelector("#content").innerHTML=`
@@ -11,6 +14,8 @@ hab.addEventListener("click", ()=> {
             <div class="circle"></div>
             <div class="line"></div>
         </div>
+        <div class="setas left"></div>
+        <div class="setas right"></div>
         <div class="containerMain">
             <h1>HABILIDADES</h2>
             <hr/>
@@ -97,8 +102,55 @@ hab.addEventListener("click", ()=> {
                 </div>
             </div>
         </div>
-    </div>
-                
-        `
-    )
+    </div>`,
+    actions()
+    );
+   
 });
+
+function actions(){
+    const setaLeft = document.querySelector(".setas.left");
+    const setaRight = document.querySelector(".setas.right");
+    const container = document.querySelector(".skills");   
+    const allSkills = document.querySelectorAll(".skills > div");
+    let actualMargin;
+   
+    if(window.innerWidth >980){
+        actualMargin = 0;
+    }else if((window.innerWidth > 550 && window.innerWidth <980)){
+        actualMargin = 500;
+    } else if(window.innerWidth<550){
+        actualMargin = 400;
+    }
+    console.log("the margin is "+ actualMargin);
+
+
+    setaRight.addEventListener("click", function(){
+        if(window.innerWidth >980 && actualMargin > -2120){
+            actualMargin -=1060;
+           
+        } else if((window.innerWidth > 550 && window.innerWidth <980) && actualMargin > -2500){
+            actualMargin -=1000;
+        }
+        else if((window.innerWidth < 550 ) && actualMargin > -2000){
+            actualMargin -=800;
+        }
+        container.style.marginLeft = `${actualMargin}px`;
+        console.log("the margin is "+ actualMargin);
+    });
+    setaLeft.addEventListener("click", function(){
+        if(window.innerWidth >980 && actualMargin <2120){
+            actualMargin +=1060;
+           
+        }else if((window.innerWidth > 550 && window.innerWidth <980) && actualMargin < 2500){
+            actualMargin +=1000;
+        }else if((window.innerWidth < 550 ) && actualMargin < 2000){
+            actualMargin +=800;
+        }
+
+        container.style.marginLeft = `${actualMargin}px`;
+        console.log("the margin is "+ actualMargin);
+    });
+
+
+}

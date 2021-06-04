@@ -13,4 +13,57 @@
 .Navegation a:hover{
     color: rgba(250, 9, 9, 0.7);
 }
+.menuSelect{
+    display:none;
+    width:40px;
+    height:40px;
+    background: yellow;
+    
+}
+@media(min-width:800px) and (max-width:1000px){
+    .Navegation h2{
+        font-size: 20px;
+     
+    }
+}
+@media(min-width:700px) and (max-width:800px){
+    .Navegation h2{
+        font-size: 17px;
+     
+    }
+}
+@media(min-width:500px) and (max-width:700px){
+    
+    .Navegation h2{
+        font-size: 13px;
+     
+    }
+}
+@media(max-width:500px){
+    .Navegation{
+        display: none;
+        width:250px;
+        height:90vh;
+        margin-top:40px;
+        background-color: rgba(255, 255, 255, 0.808);    
+        position: absolute;
+        right:0;
+        z-index: 99;
+        flex-direction: column;
+        align-items:flex-start;
+        padding-left: 20px;
+    }
+    .Navegation h2{
+        font-size: 15px;
+     
+    }
+
+    .menuSelect{
+        position: absolute;
+        display: inline-flex;
+       right:0;
+       margin-right:20px;
+    }
+}
+
 
